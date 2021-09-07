@@ -1,0 +1,26 @@
+{
+  "name": "Mitsuba",
+  "version": "1.0.0",
+  "description": "Mitsuba 1.0.0",
+  "main": "./src/Mitsuba.js",
+  "scripts": {
+    "dev": "node ./src/Mitsuba.js",
+    "start": "node ./src/Mitsuba.js",
+    "dev:watch": "nodemon ./src/Mitsuba.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord"
+  ],
+  "author": "Ninyaaq | Paqlio",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "discord.js-commando": "^0.10.0",
+    "erit-ytdl": "^0.1.2",
+    "include": "^1.1.0",
+    "nodemon": "^2.0.7",
+    "soundcloud-downloader": "^0.2.3",
+    "ytdl-core": "^4.4.2"
+  }
+}
