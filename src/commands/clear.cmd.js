@@ -49,7 +49,6 @@ const { color, colorfail, botp, botname } = require(__dirname + "/../config/nvco
 
       const embed = new MessageEmbed()
       .setTitle(botp)
-      
       .setColor(color)
       .setThumbnail(avatar)
       .setFooter("⨉ "+ botname +" ⨉")
