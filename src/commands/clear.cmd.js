@@ -52,7 +52,7 @@ const { color, colorfail, botp, botname } = require(__dirname + "/../config/nvco
       .setTitle(botp)
       .setThumbnail(avatar)
       .setFooter("⨉ "+ botname +" ⨉")
-      .addField(`Wyczyszczono chat!`, `🗑 liczba usuniętych wiadomości: **${amountArg}**`)
+      .addField(`Wyczyszczono chat!`, `🗑 liczba test usuniętych wiadomości: **${amountArg}**`)
       .addField(`przez:`, `${author}`)
 
       channel.send(embed), msg.react("✅")
