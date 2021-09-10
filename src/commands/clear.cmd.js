@@ -48,8 +48,8 @@ const { color, colorfail, botp, botname } = require(__dirname + "/../config/nvco
       channel.bulkDelete(amountArg)
 
       const embed = new MessageEmbed()
-      .setTitle(botp)
       .setColor(color)
+      .setTitle(botp)
       .setThumbnail(avatar)
       .setFooter("⨉ "+ botname +" ⨉")
       .addField(`Wyczyszczono chat!`, `🗑 liczba usuniętych wiadomości: **${amountArg}**`)
