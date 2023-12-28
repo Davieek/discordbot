@@ -2,7 +2,7 @@ module.exports = {
     //bot info
     token: "ODgxNjcwMjE5NTExMjUxMDM0.YSwNYA.dhM0O8YWR_Fv2rDTcymSsavs7AI",
     prefix: "n?",
-    author: "Ninyaaq | Paqlio",
+    author: "Ninjak",
     version: "2.1",
     botname: "NetherMc - Twój Serwer Minecraft ! ",
     botid: "881670219511251034",
